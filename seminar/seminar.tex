@@ -1,0 +1,221 @@
+\documentclass[a4paper, 12pt]{report}
+
+
+% \usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{indentfirst}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{ragged2e}
+\usepackage{relsize}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+
+\usepackage{setspace}
+\usepackage{titlesec}
+\linespread{1.5}   
+\NewDocumentCommand{\myrule}{O{1pt} O{2pt} O{black}}{%
+  \par\nobreak % don't break a page here
+  \kern\the\prevdepth % don't take into account the depth of the preceding line
+  \kern#2 % space before the rule
+  {\color{#3}\hrule height #1 width\hsize} % the rule
+  \kern#2 % space after the rule
+  %\nointerlineskip % no additional space after the rule
+}
+\usepackage[section]{placeins}
+
+\usepackage{booktabs}
+\usepackage{colortbl}%
+   \newcommand{\myrowcolour}{\rowcolor[black]{0.925}}
+
+\usepackage[obeyspaces]{url}
+\usepackage{etoolbox}
+\usepackage[colorlinks,citecolor=black,urlcolor=blue,bookmarks=false,hypertexnames=true]{hyperref} 
+
+\usepackage{geometry}
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2cm, % Inner margin
+	outer=2cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=2cm, % Top margin
+	bottom=2cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+
+\begin{document} 
+
+%************************************TITLE PAGE**************************************%
+\begin{titlepage}
+\begin{center}
+\textbf{\LARGE Tribhuvan University}\\[0.5cm] 
+\textbf{\large Institute of Science and Technology}\\[0.2cm]
+\vspace{20pt}\includegraphics[width=10cm]{images/Logo.png}\\
+\par
+\vspace{15pt}
+  \textbf{\Large Central Department of Computer Science and Information Technology}\\
+  Kirtipur, Kathmandu\\
+\vspace{15pt}  
+\centering
+\rule[10pt]{1.5pt}{60pt}
+\rule[0pt]{1.5pt}{80pt}
+\rule[10pt]{1.5pt}{60pt}\\
+\begin{center}
+\textbf{In partial fulfillment of the requirement for Master’s Degree in Computer Science and Information Technology (M.Sc. CSIT), Second Semester}\\
+\end{center}
+\textbf{\LARGE  Seminar Report on:}\\ [0.2cm]
+
+\textbf{\large “Comparative Analysis of Word Embedding Models for Nepali Text Classification"}\\
+\vspace{15pt} 
+\textbf {\large Submitted To:}\\[0.2cm]
+\textbf {Central Department of Computer Science and Information Technology}\\[0.1cm]
+\vspace{15pt}  
+\textbf {\large Submitted By:}\\[0.2cm]
+\textbf{Sudhan Kandel (623/077)}\\[0.1cm]
+\text{August, 2022 }
+\end{center}
+\par
+\vfill
+
+\end{titlepage}
+\newpage
+\pagenumbering{gobble}
+%************************************SUPERVISOR RECOMMENDATION PAGE**************************************%
+\pagenumbering{roman}
+\begin{center}
+
+\vspace{70pt}\includegraphics[width=10cm]{images/Logo.png}\\
+\textbf{\LARGE Tribhuvan University}\\[0.5cm]
+\textbf{\large Institute of Science and Technology}\\[0.2cm]
+\vspace{40pt}
+\textbf{\large Supervisor’s Recommendation}\\
+\end{center}
+\justifying
+I hereby recommend that this Seminar report, prepared under my supervision by \textbf{Mr. Sudhan Kandel} entitled \textbf{“Performance Analysis of Word Embedding Models for Nepali Text Classification”} be accepted as fulfillment in partial requirement for the degree of Master’s of Science in Computer Science and Information Technology. To the best of my knowledge, this is an original work in computer science. 
+\vspace{70pt}
+
+\begin{center}
+\vspace{25mm}
+
+\begin{tabular}{@{}p{2.5in}@{}}
+\hrulefill \\
+\centering  Asst. Prof. Bikash Balami\\
+\centering Central Department of Computer Science and Information Technology
+\end{tabular}
+\end{center}
+
+%************************************letter of approval**************************************%
+\clearpage
+\vspace{70pt} 
+\begin{center}
+\textbf{\LARGE Tribhuvan University}\\[0.5cm]
+\textbf{\large Institute of Science and Technology}\\[0.2cm]
+\vspace{30pt}
+\textbf{LETTER OF APPROVAL}
+\end{center}
+This is to certify that the seminar report prepared by \textbf{Mr. Sudhan Kandel} entitled \textbf{“Performance Analysis of Word Embedding Models for Nepali Text Classification”} in partial fulfillment of the requirements for the degree of Master of Science in Computer Science and Information Technology has been well studied. In our opinion, it is satisfactory in the scope and quality as a project for the required degree. \\
+\begin{center}
+\begin{tabular}{@{}p{2.5in}p{2in}p{2in}@{}}
+\hrulefill && \hrulefill\\
+Asst. Prof. Sarbin Sayami &&   Asst. Prof. Bikash Balami\\
+(HOD) &&  (Supervisor)\\
+Central Department of Computer Science and Information Technology &&Central Department of Computer Science and Information Technology
+\end{tabular}
+\end{center}
+\begin{center}
+\vspace{25mm}
+
+\begin{tabular}{@{}p{2.5in}@{}}
+\hrulefill \\
+\centering (Internal)
+\end{tabular}
+\end{center}
+
+
+%************************************Acknoledgement**************************************%
+
+\newpage
+
+\begin{center}
+\textbf{\LARGE ACKNOWLEDGEMENT}
+\addcontentsline{toc}{chapter}{\numberline{} ACKNOWLEDGEMENT}%
+\end{center}
+\vspace{20pt}
+The success and final outcome of this seminar report required a lot of guidance and assistance from many people and I am very fortunate to have got this all along the completion. I am very glad to express my deepest sense of gratitude and sincere thanks to my highly respected and esteemed supervisor \textbf{Asst. Prof. Bikash Balami} Central Department of computer science and Information Technology for his valuable supervision, guidance, encouragement, and support for completing this seminar report. 
+I am also thankful to \textbf{Asst. Prof. Sarbin Sayami}, HOD of Central Department of Computer Science and Information Technology for his constant support throughout the period.
+Furthermore, with immense pleasure, I submit by deepest gratitude to the Central Department of Computer Science and Information Technology, Tribhuvan University, and all the faculty members of CDCSIT for providing the platform to explore the knowledge of interest. At the end I would like to express my sincere thanks to all my friends and others who helped me directly or indirectly. \\\\
+\vspace{50pt}
+\textbf{Sudhan Kandel (623/077) }
+
+%************************************Abstract**************************************%
+\clearpage
+\begin{center}
+\textbf{\LARGE ABSTRACT}
+\addcontentsline{toc}{chapter}{\numberline{} ABSTRACT}%
+\end{center}
+\vspace{20pt}
+The task of classifying unstructured document to the proper category to which it belongs to is become difficult task because the volume of information shared over the internet increase swiftly. Text classification is the task of allocating the document into one or more number of predefined categories. Additionally, this is very famous in the field of information retrieval, text summarization and so on. However, all the application areas transformation of text into feature vectors play the important role.Previously several text representation techniques have been proposed by different authors to capture the real semantics of the web documents, but this has become hinderance because of semantic mismatch and multiple meanings of words.\\
+Thus, this seminar report proposes a word embedding to solve the document representation problem in Nepali news classification. To achieve this task, this seminar work utilizes Word2Vec and ELMo word embedding algorithms to represent documents. And which are also used in conjunction with Nepali news classification algorithm to determine the most effective embedding model. In this report two machine learning algorithm namely SVM and Random Forest are used.\\
+Context dependent and independent word representation model are used in this seminar report. Here total of 5145 Nepali news is scraped from e-kantipur for analyzing these models with text classification model, to which it includes four different categories. All in all, the Random Forest machine learning algorithm provide the highest accuracy of 74 percent with the ELMo word representation. However, scenario with SVM looks different, it gives the highest accuracy of 68 percent with Word2Vec word vectorization model.\\
+\textbf{Keywords:}
+\textit{Word2Vec, ELMo, Word-Embedding}
+
+
+%************************************TABLE OF CONTENT**************************************%
+\hypersetup{linkcolor=black}
+\tableofcontents
+\addcontentsline{toc}{chapter}{\numberline{} Table of Content}%
+
+  
+
+%*********************List of Figures**********%
+\listoffigures
+\addcontentsline{toc}{chapter}{\numberline{} List of Figures}%
+%*********************List of table**********%
+\listoftables
+\addcontentsline{toc}{chapter}{\numberline{} List of Tables}%
+
+%*********************List of Abbreviations**********%
+\clearpage
+\begin{center}
+\textbf{\LARGE List of Abbreviations}\\
+\addcontentsline{toc}{chapter}{\numberline{} Abbreviations}%
+\end{center}
+\begin{itemize}
+  \item {\textbf{HTML: Hyper Text Markup Language}}
+  \item{\textbf{LSTM: Long Short Term Memory}}
+  \item{\textbf{NLP: Natural Language Processing}}
+  \item {\textbf{NLTK: Natural Language Processing}}
+  \item {\textbf{PCA: Principal Component Analysis}}
+  \item{\textbf{SBD: Sentence Boundary Disambiguation}}
+ \item{\textbf{SOTA: State of The Art }}
+  \item{\textbf{SVM: Support Vector Machine}}
+\end{itemize}
+  
+%********************************%
+%***********SECTION 1************%
+%********************************%
+\newpage
+\pagenumbering{arabic}
+\input{Chapters/ch01/ch01}
+\input{Chapters/ch02/ch02}
+\input{Chapters/ch03/ch03}
+\input{Chapters/ch04/ch04}
+\input{Chapters/ch05/ch05}
+\input{Chapters/ch06/ch06}
+
+\renewcommand{\bibname}{References}
+\bibliographystyle{plain}
+\bibliography{References}
+
+\addcontentsline{toc}{chapter}{\numberline{} References}%
+\clearpage
+\input{Chapters/appendix/appendix}
+\addcontentsline{toc}{chapter}{\numberline{} Appendix}%
+
+\end{document}

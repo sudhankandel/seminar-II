@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{ajose2020performance}
+BM~Ajose-Ismail, Olawale~Victor Abimbola, and SA~Oloruntoba.
+\newblock Performance analysis of different word embedding models for text
+  classification.
+\newblock {\em International Journal of Scientific Research and Engineering
+  Development}, 3(6):1016--1020, 2020.
+
+\bibitem{bhoir2017comparative}
+Snehal Bhoir, Tushar Ghorpade, and Vanita Mane.
+\newblock Comparative analysis of different word embedding models.
+\newblock In {\em 2017 International conference on advances in computing,
+  communication and Control (ICAC3)}, pages 1--4. IEEE, 2017.
+
+\bibitem{fano2019comparative}
+Elena Fano.
+\newblock A comparative study of word embedding methods for early risk
+  prediction on the internet, 2019.
+
+\bibitem{koirala2021npvec1}
+Pravesh Koirala and Nobal~B Niraula.
+\newblock Npvec1: Word embeddings for nepali-construction and evaluation.
+\newblock In {\em Proceedings of the 6th Workshop on Representation Learning
+  for NLP (RepL4NLP-2021)}, pages 174--184, 2021.
+
+\bibitem{mikolov2013efficient}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock {\em arXiv preprint arXiv:1301.3781}, 2013.
+
+\bibitem{ritu2018performance}
+Zakia~Sultana Ritu, Nafisa Nowshin, Md~Mahadi~Hasan Nahid, and Sabir Ismail.
+\newblock Performance analysis of different word embedding models on bangla
+  language.
+\newblock In {\em 2018 International Conference on Bangla Speech and Language
+  Processing (ICBSLP)}, pages 1--5. IEEE, 2018.
+
+\bibitem{sarzynska2021detecting}
+Justyna Sarzynska-Wawer, Aleksander Wawer, Aleksandra Pawlak, Julia
+  Szymanowska, Izabela Stefaniak, Michal Jarkiewicz, and Lukasz Okruszek.
+\newblock Detecting formal thought disorder by deep contextualized word
+  representations.
+\newblock {\em Psychiatry Research}, 304:114135, 2021.
+
+\end{thebibliography}

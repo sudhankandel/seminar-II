@@ -1,0 +1,21 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A taxonomy of word embedding\relax }}{2}{figure.caption.4}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overall Process\relax }}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The CBOW architecture predicts the current word\relax }}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture of ELMo\relax }}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Support Vector machine hyper plane\relax }}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Random Forest Classifier\relax }}{10}{figure.caption.10}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sample of Raw Dataset\relax }}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Sample Preprocess Dataset\relax }}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces For fixed window size training time for Word2Vec\relax }}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces SVM Model Accuracy for Word2vec with Different Window Size\relax }}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces SVM Model Accuracy for Word2vec with Different Minimum Count\relax }}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces SVM Classification Report for ELMO Word embedding\relax }}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Random Forest Model Accuracy for Word2vec with Different Window Size\relax }}{20}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Random Forest Model Accuracy for Word2vec with Different Window Size\relax }}{21}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Random Forest Classification Report for ELMO Word embedding\relax }}{21}{figure.caption.26}%
+\addvspace {10\p@ }

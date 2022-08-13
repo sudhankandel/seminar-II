@@ -1,0 +1,48 @@
+\contentsline {chapter}{\hbox to\@tempdima {\hfil } ACKNOWLEDGEMENT}{iii}{Doc-Start}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil } ABSTRACT}{iv}{Doc-Start}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil } Table of Content}{vi}{chapter*.1}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil } List of Figures}{vii}{chapter*.2}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil } List of Tables}{viii}{chapter*.3}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil } Abbreviations}{ix}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Problem Statement}{2}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Objective}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Methodology}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Dataset Discription}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Data Preprocessing}{6}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Remove Special Characters}{6}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Remove Stop Words}{6}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Tokenization}{6}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Feature Extraction}{7}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Word2Vec}{7}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}ELMo}{8}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Machine Learning Model}{8}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}SVM}{8}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Random Forest}{9}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Evaluation Techniques}{10}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Accuracy}{10}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Precision}{11}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Recall}{11}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}F1 Score}{11}{subsection.3.6.4}%
+\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data Collection}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Preprocessing}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Feature Extraction}{13}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Word2Vec}{13}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}ELMo}{13}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Model Develop and Train}{14}{section.4.4}%
+\contentsline {section}{\numberline {4.5}System Specification}{14}{section.4.5}%
+\contentsline {chapter}{\numberline {5}RESULT AND ANALYSIS}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Preprocessing}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Time Performance Analysis}{16}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Word2Vec}{16}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}ELMo}{17}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Model Evaluation}{18}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}SVM}{18}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Random Forest}{20}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}CONCLUSION}{22}{chapter.6}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil } References}{23}{chapter*.27}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil } Appendix}{25}{figure.caption.31}%
